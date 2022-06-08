@@ -220,6 +220,11 @@ textarea {
   font-family: var(--main-font);
 }
 
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
 .send-btn {
   border: solid 2px black;
   background: white;
