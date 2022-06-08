@@ -15,7 +15,7 @@
   <body>
     <header>
       <div class="img-box">
-        <img class="logo" src="/images/Logo/full-Logo.png" alt="Sigvel Portfolio logo" />
+        <img class="logo" src="/images/Logo/full-portfolio-logo.png" alt="Sigvel Portfolio logo" />
       </div>
       <nav>
         <ul>
@@ -26,7 +26,7 @@
       </nav>
     </header>
     <main>
-      <h1 class="invinsible">Sigvel's Portfolio</h1>
+      <h1 class="invincible">Sigvel's Portfolio</h1>
       <section class="work-section">
         <div class="section-header">
           <div class="horizontal-line"></div>
@@ -60,11 +60,15 @@
               <div class="slider-item">
                 <div class="slider-img_wrap">
                   <img class="slider-img" src="/images/interactive-muesm.jpg" />
+                  <h4>Community science museum</h4>
+                  <p>This is a webpage i made for my semester project, its a website for a interactive science museum</p>
                 </div>
               </div>
               <div class="slider-item">
                 <div class="slider-img_wrap">
                   <img class="slider-img" src="/images/square-eyes.jpg" />
+                  <h4>Square Eyes</h4>
+                  <p>This is the first website i made, this is a website for pay per view videos</p>
                 </div>
               </div>
             </div>
@@ -102,17 +106,23 @@
             <div class="slider-item_wrap">
               <div class="slider-item">
                 <div class="slider-img_wrap">
-                  <img class="slider-img" src="/images/code-blogg.jpg" />
+                  <img class="slider-img" src="/images/Logo/fjongemenn-logo.jpg" />
+                  <h4>Fjongemenn logo</h4>
+                  <p>This is a logo i made for training in illustrator and photoshop.</p>
                 </div>
               </div>
               <div class="slider-item">
                 <div class="slider-img_wrap">
-                  <img class="slider-img" src="/images/interactive-muesm.jpg" />
+                  <img class="slider-img" src="/images/Logo/logo-yellow-and-gray.png" />
+                  <h4>Portfolio logo</h4>
+                  <p>This is just something simple i made for my portfolio</p>
                 </div>
               </div>
               <div class="slider-item">
                 <div class="slider-img_wrap">
-                  <img class="slider-img" src="/images/square-eyes.jpg" />
+                  <img class="slider-img" src="/images/Logo/logo-no-controll.jpg" />
+                  <h4>No control</h4>
+                  <p>This the first logo i have made, i made it for learning illustrator & photoshop</p>
                 </div>
               </div>
             </div>
@@ -132,7 +142,7 @@
           </div>
         </div>
       </section>
-      <section>
+      <section class="about-section">
         <div class="section-header">
           <div class="horizontal-line"></div>
           <h2>About</h2>
@@ -142,18 +152,38 @@
           <div class="about-img_wrap">
             <img class="personal-img" src="/images/profile/profile-img.jpg" />
           </div>
-          <h3>< Developer! ></h3>
+          <h3><strong> < Developer! /></strong></h3>
         </div>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum pariatur omnis illum, repellat quam nam. Dolores, omnis. Repellendus hic assumenda tenetur voluptatem ducimus accusantium, nesciunt iste porro. Nobis, id laboriosam?</p>
       </section>
-      <section>
+      <section class="contact-section">
         <div class="section-header">
           <div class="horizontal-line"></div>
           <h2>Contact</h2>
           <div class="horizontal-line"></div>
         </div>
-        <form></form>
+        <form id="contact-form" class="form-contact">
+          <div class="input-container">
+            <label id="error" class="label-container" for="your-name">
+              <input type="text" id="your-name" name="your-name" placeholder="Name atleast 5 characters" />
+            </label>
+            <label id="error" class="label-container" for="your-email">
+              <input type="email" id="your-email" name="your-email" placeholder="Email must be valid" />
+            </label>
+            <label id="error" class="label-container" for="your-subject">
+              <input type="text" id="your-subject" name="your-subject" placeholder="Subject" />
+            </label>
+            <label id="error" class="label-container" for="your-message">
+              <textarea id="your-message" name="your-message" placeholder="Message" rows="4" cols="26" maxlength="500"></textarea>
+            </label>
+            <div>
+              <button id="send-msg" class="send-btn">Send message</button>
+            </div>
+          </div>
+          <div class="form-success"></div>
+        </form>
       </section>
+      <script src="/js/script.js"></script>
     </main>
   </body>
 </html>
