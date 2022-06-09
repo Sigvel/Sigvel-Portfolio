@@ -21,12 +21,16 @@ header {
   margin-top: 10%;
 }
 
-ul {
+nav ul {
   display: flex;
   gap: 5%;
   justify-content: center;
-  padding: 0;
+  padding-left: 4%;
   font-size: 4vw;
+}
+
+ul {
+  padding-left: 0;
 }
 
 li {
@@ -40,7 +44,7 @@ li a {
 
 h2 {
   text-align: center;
-  width: 130px;
+  width: 30%;
   text-transform: uppercase;
   font-size: 5vw;
 }
@@ -79,7 +83,7 @@ h3 {
 .horizontal-line {
   content: "";
   background: var(--text-color);
-  width: 25%;
+  width: 23%;
   height: 1px;
   align-self: center;
 }
@@ -107,7 +111,7 @@ h3 {
 .slider-item_wrap {
   position: absolute;
   display: flex;
-  width: 230%;
+  width: 235%;
 }
 
 .slider-item {
@@ -117,18 +121,18 @@ h3 {
   padding-bottom: 1%;
   position: relative;
   width: 100%;
-  left: 7%;
+  left: 5%;
 }
 
 .slider-item h4,
 .slider-item p {
   margin: 0;
-  max-width: 90%;
+  max-width: 96%;
   font-size: 4vw;
 }
 
 .slider-img_wrap {
-  width: 90%;
+  width: 96%;
 }
 
 .slider-img {
@@ -156,19 +160,39 @@ h3 {
   padding-left: 3%;
 }
 
+.arrow-right svg:hover {
+  color: black;
+}
+
 .arrow-right svg {
   align-self: center;
   z-index: 9999;
 }
+/* About section */
 
 .about-section {
   margin-top: 10%;
 }
 
-.about-section p {
-  max-width: 60%;
+.about-section h4,
+.about-section li {
+  max-width: 76%;
   margin: 0 auto;
+}
+
+.about-section h4 {
+  margin-top: 8%;
+  font-size: 4.3vw;
+  margin-bottom: 1%;
+}
+
+.about-section li {
+  margin-bottom: 1.5%;
   font-size: 4vw;
+}
+
+.about-section ul {
+  margin-top: 0;
 }
 
 .about-heading {
@@ -208,27 +232,29 @@ h3 {
 input {
   border: none;
   border-bottom: solid 1px black;
-  width: 15rem;
-  font-size: 1rem;
+  width: 75vw;
+  font-size: 4vw;
   font-family: var(--main-font);
 }
 
 textarea {
-  font-size: 1rem;
+  font-size: 4vw;
   resize: none;
   border: solid 1px black;
   font-family: var(--main-font);
+  width: 74.5vw;
 }
 
 textarea:focus,
 input:focus {
-  outline: none;
+  border: 2px solid black;
 }
 
 .send-btn {
   border: solid 2px black;
   background: white;
-  padding: 3% 29%;
+  padding: 3% 0%;
+  width: 76vw;
   font-family: var(--main-font);
 }
 
@@ -245,4 +271,10 @@ input:focus {
   border-color: darkred;
   color: darkred;
   max-width: 500px;
+}
+
+@media only screen and (min-width: 500px) {
+  nav ul {
+    gap: 7%;
+  }
 }
