@@ -350,3 +350,98 @@ input:focus {
     width: 72vw;
   }
 }
+
+@media only screen and (min-width: 970px) {
+  nav ul {
+    padding-left: 1%;
+    font-size: 1.2em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 2em;
+    flex-basis: 25%;
+  }
+
+  .work-section {
+    margin-top: 37%;
+  }
+
+  .slider-wrapper {
+    margin-bottom: 5%;
+  }
+
+  .slider {
+    height: 30vw;
+  }
+
+  .slider-item_wrap {
+    width: 120%;
+  }
+
+  .slider-item {
+    left: 10%;
+    margin-right: 3%;
+  }
+
+  .slider-item h4 {
+    font-size: 1.2em;
+  }
+
+  .slider-item p {
+    font-size: 1.1em;
+  }
+
+  .arrow-right svg,
+  .arrow-left svg {
+    height: 35px;
+    width: 40px;
+  }
+
+  .personal-img {
+    width: 67%;
+  }
+
+  .about-heading h3 {
+    display: flex;
+    align-items: center;
+  }
+
+  .about-section h4,
+  .about-section li {
+    max-width: 55%;
+  }
+
+  .about-section h4 {
+    font-size: 1.3em;
+    margin-top: 5%;
+  }
+
+  .about-section li {
+    font-size: 1.1em;
+    margin-bottom: 1%;
+  }
+
+  .input-container {
+    width: 50%;
+  }
+
+  input {
+    font-size: 1.3em;
+    width: 97%;
+    padding: 1.5%;
+  }
+
+  textarea {
+    font-size: 1.3em;
+    width: 99%;
+  }
+
+  .send-btn {
+    font-size: 1.3em;
+    width: 100%;
+  }
+}
