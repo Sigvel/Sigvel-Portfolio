@@ -359,6 +359,10 @@ input:focus {
 }
 
 @media only screen and (min-width: 970px) {
+  header {
+    margin-top: 8%;
+  }
+
   nav ul {
     padding-left: 1%;
     font-size: 1.2em;
@@ -371,6 +375,10 @@ input:focus {
   h3 {
     font-size: 2em;
     flex-basis: 36%;
+  }
+
+  .horizontal-line {
+    width: 25%;
   }
 
   .work-section {
