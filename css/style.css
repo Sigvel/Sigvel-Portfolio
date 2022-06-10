@@ -27,6 +27,7 @@ nav ul {
   justify-content: center;
   padding-left: 4%;
   font-size: 4vw;
+  background: white;
 }
 
 ul {
@@ -94,6 +95,10 @@ h3 {
 
 .work-section {
   margin-top: 15%;
+}
+
+.work-section a {
+  color: var(--text-color);
 }
 
 .slider-wrapper {
@@ -365,11 +370,11 @@ input:focus {
 
   h3 {
     font-size: 2em;
-    flex-basis: 25%;
+    flex-basis: 36%;
   }
 
   .work-section {
-    margin-top: 37%;
+    margin-top: 43%;
   }
 
   .slider-wrapper {
@@ -377,7 +382,7 @@ input:focus {
   }
 
   .slider {
-    height: 30vw;
+    height: 29vw;
   }
 
   .slider-item_wrap {
@@ -404,18 +409,23 @@ input:focus {
   }
 
   .personal-img {
-    width: 67%;
+    width: 100%;
+  }
+
+  .about-img_wrap {
+    width: 20%;
   }
 
   .about-heading h3 {
     display: flex;
     align-items: center;
     font-size: 3em;
+    justify-content: center;
   }
 
   .about-section h4,
   .about-section li {
-    max-width: 55%;
+    max-width: 56%;
   }
 
   .about-section h4 {
