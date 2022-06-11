@@ -17,7 +17,7 @@ const nav = document.querySelector("nav");
 function handleScroll() {
   const scrolledY = window.scrollY;
 
-  if (scrolledY > 450) {
+  if (scrolledY > 600) {
     nav.classList.add("scrolled");
   } else {
     nav.classList.remove("scrolled");
