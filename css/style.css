@@ -203,6 +203,7 @@ h3 {
   align-self: center;
   z-index: 9999;
 }
+
 /* About section */
 
 .about-section {
@@ -268,6 +269,7 @@ h3 {
 .personal-img {
   width: 100%;
 }
+/* contact section */
 
 .contact-section {
   margin-top: 10%;
@@ -276,13 +278,15 @@ h3 {
 .form-contact {
   display: flex;
   justify-content: center;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 8%;
+  margin-bottom: 5%;
 }
 
 .input-container {
   display: flex;
   flex-direction: column;
+  border: solid 1px black;
+  padding: 7% 3%;
 }
 
 .label-container {
@@ -292,7 +296,7 @@ h3 {
 input {
   border: none;
   border-bottom: solid 1px black;
-  width: 75vw;
+  width: 70vw;
   font-size: 4vw;
   font-family: var(--main-font);
 }
@@ -302,7 +306,7 @@ textarea {
   resize: none;
   border: solid 1px black;
   font-family: var(--main-font);
-  width: 74.5vw;
+  width: 69.5vw;
 }
 
 textarea:focus,
@@ -314,7 +318,7 @@ input:focus {
   border: solid 2px black;
   background: white;
   padding: 3% 0%;
-  width: 76vw;
+  width: 70.5vw;
   font-family: var(--main-font);
   font-size: 4vw;
 }
@@ -399,18 +403,18 @@ input:focus {
 
   input {
     font-size: 2.5vw;
-    width: 68.5vw;
+    width: 63.5vw;
     padding: 1.5vw;
   }
 
   textarea {
     font-size: 2.5vw;
-    width: 71vw;
+    width: 65.5vw;
   }
 
   .send-btn {
     font-size: 2.5vw;
-    width: 72vw;
+    width: 66vw;
   }
 }
 
@@ -438,7 +442,7 @@ input:focus {
   }
 
   .work-section {
-    margin-top: 43%;
+    margin-top: 10%;
   }
 
   .slider-wrapper {

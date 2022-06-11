@@ -17,7 +17,7 @@ const nav = document.querySelector("nav");
 function handleScroll() {
   const scrolledY = window.scrollY;
 
-  if (scrolledY > 500) {
+  if (scrolledY > 450) {
     nav.classList.add("scrolled");
   } else {
     nav.classList.remove("scrolled");
@@ -38,7 +38,6 @@ window.addEventListener("scroll", () => {
     const sectionTop = section.offsetTop;
     if (window.scrollY >= sectionTop - 60) {
       current = section.getAttribute("id");
-      console.log(current);
     }
   });
 
