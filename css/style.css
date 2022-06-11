@@ -565,6 +565,10 @@ input:focus {
     margin-top: 12%;
   }
 
+  .slider {
+    height: 28vw;
+  }
+
   .form-contact {
     margin-top: 4%;
     margin-bottom: 2%;
