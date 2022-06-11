@@ -269,6 +269,7 @@ h3 {
 .personal-img {
   width: 100%;
 }
+
 /* contact section */
 
 .contact-section {
@@ -280,6 +281,7 @@ h3 {
   justify-content: center;
   margin-top: 8%;
   margin-bottom: 5%;
+  flex-wrap: wrap;
 }
 
 .input-container {
@@ -293,7 +295,7 @@ h3 {
   margin-bottom: 10%;
 }
 
-input {
+.label-container input {
   border: none;
   border-bottom: solid 1px black;
   width: 70vw;
@@ -327,15 +329,34 @@ input:focus {
   background: black;
   color: white;
 }
-/* Error */
 
-.error {
+/* Error is not in use yet */
+
+/* .error {
   background-color: lightcoral;
   border-style: solid;
   border-radius: 5px;
   border-color: darkred;
   color: darkred;
   max-width: 500px;
+} */
+
+/* Success message */
+.form-success {
+  flex-basis: 100%;
+  margin-bottom: 2%;
+}
+
+.successMessage {
+  border-style: solid;
+  border-radius: 5px;
+  border-color: darkgreen;
+  background-color: lightgreen;
+  color: darkgreen;
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 10px;
+  font-family: var(--main-font);
 }
 
 @media only screen and (min-width: 500px) {
@@ -401,7 +422,7 @@ input:focus {
     max-width: 73%;
   }
 
-  input {
+  .label-container input {
     font-size: 2.5vw;
     width: 63.5vw;
     padding: 1.5vw;
@@ -522,7 +543,7 @@ input:focus {
     width: 40%;
   }
 
-  input {
+  .label-container input {
     font-size: 1.3em;
     width: 97%;
     padding: 1.5%;
@@ -542,5 +563,14 @@ input:focus {
 @media only screen and (min-width: 1400px) {
   .work-section {
     margin-top: 12%;
+  }
+
+  .form-contact {
+    margin-top: 4%;
+    margin-bottom: 2%;
+  }
+
+  .input-container {
+    width: 25%;
   }
 }
