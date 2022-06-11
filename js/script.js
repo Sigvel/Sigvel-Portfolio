@@ -12,19 +12,24 @@ arrowPrevious.addEventListener("click", () => {
 });
 
 // Nav on scrolling show
+const header = document.querySelector("header");
 const nav = document.querySelector("nav");
 
-function handleScroll() {
-  const scrolledY = window.scrollY;
+const headerOptions = {
+  rootMargin: "-50px 0px 0px 0px",
+};
 
-  if (scrolledY > 600) {
-    nav.classList.add("scrolled");
-  } else {
-    nav.classList.remove("scrolled");
-  }
-}
+const headerObserver = new IntersectionObserver(function (entries) {
+  entries.forEach((entry) => {
+    if (!entry.isIntersecting) {
+      nav.classList.add("scrolled");
+    } else {
+      nav.classList.remove("scrolled");
+    }
+  });
+}, headerOptions);
 
-window.addEventListener("scroll", handleScroll);
+headerObserver.observe(header);
 
 // Current on section
 
