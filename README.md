@@ -1,5 +1,6 @@
 ## Portfolio
-![readme-homepage_img](https://user-images.githubusercontent.com/89355439/171044425-7c1bf2d5-28b9-4242-890e-b0c3fb39e255.jpg)
+![portfolio-page-image](https://user-images.githubusercontent.com/89355439/174081735-98c7afc5-7492-433d-905c-ef2891b1f225.jpg)
+
 
 
 ## Description
