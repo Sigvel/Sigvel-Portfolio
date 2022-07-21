@@ -497,6 +497,12 @@ input:focus {
     width: 40px;
   }
 
+  .arrow-right svg:hover,
+  .arrow-left svg:hover {
+    height: 45px;
+    cursor: pointer;
+  }
+
   .personal-img {
     width: 100%;
   }
